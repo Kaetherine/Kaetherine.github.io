@@ -7,6 +7,8 @@
             font-family: Calibri, sans-serif;
             text-align: center;
             background: #4d5f85;
+            margin: 0;
+            padding: 0;
         }
     
         h1 {
@@ -82,8 +84,29 @@
         .button-text {
             font-size: 16px;
         }
-    </style>
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+                margin-top: 40px;
+            }
     
+            p {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+    
+            .button {
+                width: 150px;
+                height: 150px;
+                margin: 5px;
+            }
+    
+            .button-text {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -102,16 +125,15 @@
             </div>
             <div class="button button-3">
                 <a href="https://github.com/Kaetherine/Excel-Programming-with-Python/tree/master">
-                    <span class="button-text">Excel Programmierung mit Python (Repo) </span>
+                    <span class="button-text">Excel Programmierung mit Python (Repo)</span>
                 </a>
-                </div>
-                <div class="button button-4">
+            </div>
+            <div class="button button-4">
                 <a href="https://github.com/Kaetherine/Decoupled-Django-and-React/wiki">
-                <span class="button-text">Decoupled Django and React(Repo)</span>
+                    <span class="button-text">Decoupled Django and React(Repo)</span>
                 </a>
-                </div>
-                </div>
-                </div>
-                
-                </body>
-                </html>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
