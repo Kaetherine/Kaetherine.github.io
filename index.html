@@ -105,6 +105,45 @@
                 font-size: 14px;
             }
         }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 24px;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            width: 100%;
+            height: auto;
+            margin: 5px;
+        }
+
+        .button-container {
+            flex-direction: column;
+        }
+
+        .button-text {
+            font-size: 14px;
+        }
+    }
+
+    /* Media query for tablets */
+    @media (min-width: 601px) and (max-width: 1024px) {
+        .button {
+            min-width: 5cm;
+            height: auto;
+            margin: 10px;
+        }
+        
+        .button-text {
+            font-size: 16px;
+        }
+    }
     </style>
 </head>
 <body>
