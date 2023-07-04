@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Katherine's Projects</title>
     <style>
         
@@ -86,44 +87,41 @@
             font-size: 16px;
         }
 
-        @media (max-width: 600px) {
-        h1 {
-            font-size: 24px;
-            margin-top: 40px;
-        }
-
-        p {
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        .button {
-            width: 5cm;
-            height: 5cm;
-            margin-bottom: 5px;
-        }
-
-        .button-container {
-            flex-direction: column;
-        }
-
-        .button-text {
-            font-size: 14px;
-        }
+        @media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        margin-top: 40px;
     }
 
-    /* Media query for tablets */
-    @media (min-width: 601px) and (max-width: 1024px) {
-        .button {
-            min-width: 5cm;
-            height: 5cm;
-            margin-bottom: 10px;
-        }
-        
-        .button-text {
-            font-size: 16px;
-        }
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
     }
+
+    .button {
+        width: 5cm;
+        height: 5cm;
+        margin-bottom: 5px;
+    }
+
+    .button-text {
+        font-size: 16px;
+    }
+}
+
+/* Media query for tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .button {
+        min-width: 5cm;
+        height: 5cm;
+        margin-bottom: 10px;
+    }
+    
+    .button-text {
+        font-size: 20px;
+    }
+}
+
     </style>
 </head>
 <body>
