@@ -35,17 +35,17 @@ button {
 }
 
 .cta-green {
-    background: #00FFAD;
-    color: #192440;
+    background: #e6e7e8;
+    color: #3e558f;
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: #00e69c;
+    background: #e6e7e8;
 }
 
 .cta-blue {
-    background: #192440;
+    background: #3e558f;
     color: #ffffff;
 }
 
@@ -55,8 +55,8 @@ button {
 }
 
 .cta-ghost {
-    border: 2px solid #192440 !important;
-    color: #192440;
+    border: 2px solid #3e558f !important;
+    color: #3e558f;
 }
 
 .cta-ghost:hover {
@@ -84,11 +84,11 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(168deg, #ffffff 55%, #e6e7e8 0);
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: #e6e7e8;
 }
 
 /********** price table **********/
@@ -98,7 +98,7 @@ button {
 }
 
 #price-table__premium {
-    background: #192440;
+    background: #3e558f;
     color: #ffffff;
 }
 
@@ -116,19 +116,19 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    color: #e6e7e8;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
+    border: 1px solid #e6e7e8;
     color: #ffffff;
 }
 
 /********** copyright **********/
 #copyright {
-    background: #192440;
+    background: #3e558f;
     padding: 2rem 3rem;
 }
 
@@ -141,13 +141,13 @@ button {
 }
 
 #copyright #social-media a i {
-    color: #192440;
+    color: #3e558f;
     font-size: 1.2rem;
     line-height: 40px;
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #e6e7e8;
 }
 
 #copyright #social-media a:hover i {
