@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katherine's Projects</title>
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+            background: #eaeaea;
+            margin: 0;
+        }
+
+        .project:nth-child(odd) {
+            background: white;
+        }
+
+        .project:nth-child(even) {
+            background: #eaeaea;
+        }
+
+        h1, h2 {
+            color: #292929;
+        }
+
+        p {
+            color:#292929;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -155px;
+            height: 100%;
+            background: #292929;
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .sidebar:hover {
+            left: 0;
+        }
+
+        .button {
+            display: block;
+            width: 155px;
+            height: 50px;
+            margin: 10px 0;
+            transition: background 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+            line-height: 50px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #444;
+        }
+
+        .button-redash {
+            background: #eb774a;
+        }
+
+        .button-1 {
+            background: #455c9c;
+        }
+    
+        .button-2 {
+            background: #369680;
+        }
+
+        .button-3 {
+            background: #363636;
+        }
+
+        .button-4 a {
+            color: #292929;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+                margin-top: 20px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .button {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="http://process-review-tool.eu-north-1.elasticbeanstalk.com/" target="_blank" class="button button-1">Deployed Project 1</a>
+        <a href="https://github.com/Kaetherine/Process-Review-Tool/wiki" class="button button-2">Repository 1</a>
+        <a href="http://16.170.232.74:5173/" target="_blank" class="button button-1">Deployed Project 2</a>
+        <a href="https://github.com/Kaetherine/Decoupled-Django-and-React/wiki" target="_blank" class="button button-2">Repository 2</a>
+        <a href="http://13.51.187.134/login?next=http%3A%2F%2F13.51.187.134%2F" target="_blank" class="button button-redash">Redash-Login</a>
+        <!-- Weitere Button-Einträge können hier hinzugefügt werden -->
+    </div>
+
+    <div class="project">
+        <h1>Katherine's Projects</h1>
+        <p>Welcome to my portfolio. Here's a collection of my projects.</p>
+    </div>
+
+    <!-- Process Review Tool -->
+    <div class="project">
+        <h2>PROCESS REVIEW TOOL</h2>
+        <p>Description of the project.</p>
+        <!-- Andere Informationen zu diesem Projekt -->
+    </div>
+
+    <!-- Django & React -->
+    <div class="project">
+        <h2>DJANGO & REACT</h2>
+        <p>Description of the project.</p>
+        <!-- Andere Informationen zu diesem Projekt -->
+    </div>
+
+    <!-- Redash -->
+    <div class="project">
+        <h2>Redash</h2>
+        <p>Description of the Redash project.</p>
+        <!-- Andere Informationen zu diesem Projekt -->
+    </div>
+
+    <!-- Weitere Projekte können in ähnlicher Struktur hier hinzugefügt werden -->
+
+</body>
+</html>
