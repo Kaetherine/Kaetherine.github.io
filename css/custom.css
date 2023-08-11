@@ -35,13 +35,13 @@ button {
 }
 
 .cta-green {
-    background: #e6e7e8;
+    background: #ffffff;
     color: #3e558f;
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: #e6e7e8;
+    background: #ffffff;
 }
 
 .cta-blue {
@@ -126,13 +126,13 @@ button {
     color: #ffffff;
 }
 
-/********** copyright **********/
-#copyright {
+/********** technologies **********/
+#technologies {
     background: #3e558f;
     padding: 2rem 3rem;
 }
 
-#copyright #social-media a {
+#technologies #social-media a {
     width: 40px;
     height: 40px;
     border-radius: 99%;
@@ -140,17 +140,17 @@ button {
     transition: .4s ease;
 }
 
-#copyright #social-media a i {
+#technologies #social-media a i {
     color: #3e558f;
     font-size: 1.2rem;
     line-height: 40px;
 }
 
-#copyright #social-media a:hover {
-    background: #e6e7e8;
+#technologies #social-media a:hover {
+    background: #ffffff;
 }
 
-#copyright #social-media a:hover i {
+#technologies #social-media a:hover i {
     color: #ffffff;
 }
 
