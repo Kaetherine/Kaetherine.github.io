@@ -108,10 +108,36 @@ button {
 
 
 /********** technologies **********/
-#technology {
-    max-width: 80px;
-    max-height: 80px;
+#redash {
+    max-width: 90px;
+    max-height: 90px;
 }
+
+#python {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+#react {
+    max-width: 75px;
+    max-height: 75px;
+}
+
+#aws {
+    max-width: 75px;
+    max-height: 75px;
+}
+
+#plotlydash {
+    max-width: 160px;
+    max-height: 160px;
+}
+
+#django {
+    max-width: 120px;
+    max-height: 120px;
+}
+
 
 #technologies {
     background: #3e558f;
@@ -142,7 +168,7 @@ button {
 
 #technologies #social-media a:hover i {
     color: #ffffff;
-
+    
 }
 
 /********** RWD **********/
