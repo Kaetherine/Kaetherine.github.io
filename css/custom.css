@@ -41,7 +41,7 @@ button {
 
 .cta-green:hover {
     color: #ffffff;
-    background: #ffffff;
+    background:  #121a2e;
 }
 
 .cta-blue {
@@ -106,30 +106,17 @@ button {
     padding: 5px 0;
 }
 
-/********** contact **********/
-#contact {
-    background-size: cover;
-}
-
-#contact ul li {
-    padding: 3px 0;
-}
-
-#contact form {
-    color: #e6e7e8;
-}
-
-#contact form input,
-#contact form textarea {
-    background: transparent;
-    border: 1px solid #e6e7e8;
-    color: #ffffff;
-}
 
 /********** technologies **********/
+#technology {
+    max-width: 80px;
+    max-height: 80px;
+}
+
 #technologies {
     background: #3e558f;
     padding: 2rem 3rem;
+
 }
 
 #technologies #social-media a {
@@ -138,20 +125,24 @@ button {
     border-radius: 99%;
     background: #ffffff;
     transition: .4s ease;
+    
 }
 
 #technologies #social-media a i {
     color: #3e558f;
     font-size: 1.2rem;
     line-height: 40px;
+    
 }
 
 #technologies #social-media a:hover {
     background: #ffffff;
+    
 }
 
 #technologies #social-media a:hover i {
     color: #ffffff;
+
 }
 
 /********** RWD **********/
