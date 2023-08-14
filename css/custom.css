@@ -114,13 +114,13 @@ button {
 }
 
 #postgres {
-    max-width: 90px;
-    max-height: 90px;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 #pandas {
-    max-width: 130px;
-    max-height: 130px;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 #python {
