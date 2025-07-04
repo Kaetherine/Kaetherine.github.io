@@ -1,12 +1,48 @@
 /********** common setting **********/
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 body {
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     color: #333333;
 }
 
-h2 {
+h1 {
     font-size: 2.8rem;
-    font-weight: 700;
-    color: #333333;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.lead {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 img {
@@ -17,6 +53,7 @@ img {
 a,
 button {
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
 }
 
 /********** navbar **********/
@@ -30,14 +67,28 @@ button {
 .navbar-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
     gap: 2rem;
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: #333333;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand:hover {
@@ -48,7 +99,9 @@ button {
 .navbar-container a:not(.navbar-brand) {
     color: #333333;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbar-container a:not(.navbar-brand):hover {
@@ -63,52 +116,43 @@ button {
     padding: 2rem 0;
 }
 
-
-
 .atlas-cta {
     border-radius: 22px;
-    padding: 12px 30px;
-    font-weight: 700;
+    padding: 10px 25px;
+    font-size: 0.85rem;
     transition: .3s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .atlas-cta:hover {
     text-decoration: none;
-    transform: translateY(-5px);
 }
 
 .atlas-cta-wide {
     width: 100%;
 }
 
-.cta-green {
+.atlas-cta.cta-blue {
     background: #ffffff;
-    color: #3e558f;
+    color: #333333;
+    border: 1px solid #d0d0d0;
+    font-weight: 300;
+    transition: all 0.2s ease;
 }
 
-.cta-green:hover {
-    color: #ffffff;
-    background: #121a2e;
+.atlas-cta.cta-blue:hover {
+    background: #f5f5f5;
+    color: #333333;
+    border: 1px solid #d0d0d0;
+    font-weight: 300;
+    text-decoration: none;
 }
 
-.cta-blue {
-    background: #3e558f;
-    color: #ffffff;
-}
-
-.cta-blue:hover {
-    color: #ffffff;
-    background: #121a2e;
-}
-
-.cta-ghost {
-    border: 2px solid #f3f3f3;
-    color: #3e558f;
-}
-
-.cta-ghost:hover {
-    color: #ffffff;
-    background: #121a2e;
+.atlas-cta.cta-blue:active {
+    transform: translateY(2px);
+    background: #eeeeee;
 }
 
 #price-table {
