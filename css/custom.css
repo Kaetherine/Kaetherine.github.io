@@ -109,6 +109,11 @@ button {
     text-decoration: none;
 }
 
+.navbar-container a:not(.navbar-brand).active {
+    color: #000000;
+    font-weight: 500;
+}
+
 .jumbotron {
     margin-bottom: 0;
     background-color: #ffffff;
