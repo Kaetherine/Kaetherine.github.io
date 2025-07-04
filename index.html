@@ -18,87 +18,68 @@
 </head>
 
 <body>
-    <!-- banner -->
-    <div class="jumbotron jumbotron-fluid" id="banner" style="background-color: #3e558f;">
-        <div class="container text-center text-md-left">
-            <header>
-                <div class="row justify-content-between">
-                    <div class="col-2">
-                  
-                    </div>
-                    <div class="col-6 align-self-center text-right">
-                        <a href="https://github.com/kaetherine" target="_blank" class="text-white lead">Github Account</a><br>
-                        <a href="https://kuhlekatherine.portfoliobox.net/" target="_blank" class="text-white lead">Design Projects</a>
-                    </div>
-                </div>
-            </header>
-            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
-            	Welcome to <br>
-            	Katherine's Code Projects
-            </h1>
-            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
-                <br>
-                Welcome to the digital showcase of a passionate technologist with a keen focus on data engineering and visualization. 
-                Here, you will journey through meticulously designed projects that showcase my experience in Python, AWS, 
-                Django, React, and Dash integrations, among other technologies. Fascinated by the art of transforming 
-                abstract concepts into tangible solutions, this portfolio underscores an enthusiasm for engineering holistic 
-                ideas.
-                <br><br>
-                <br><br>
-            </p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">Katherine's Portfolio</a>
+            <a href="#projects">Projekte</a>
+            <a href="#technologies">Technologien</a>
+            <a href="https://github.com/kaetherine" target="_blank">GitHub</a>
+            <a href="https://kuhlekatherine.portfoliobox.net/" target="_blank">Design</a>
         </div>
-    </div>
+    </nav>
+
     <!--Projects-->
-        <div class="container my-5 py-2" id="price-table">
-            <h2 class="text-center font-weight-bold d-block mb-3">Implementation of a Datapipeline (Offline)</h2>
-            <p>
-            In this project, an end-to-end data pipeline was constructed utilizing a combination of AWS services, 
-            including Amazon EC2, Amazon S3, Amazon Secrets Manager and Amazon RDS. Data extraction was enhanced 
-            with the strategic use of rotating proxies from zenrows, ensuring reliable and anonymous data 
-            extraction from an onlineshop. With cron, data was scheduled for regular extraction, transformation, 
-            and loading processes (ETL). Upon successful data extraction and storage in the postgres database, 
-            visualizations were crafted using a selfhosted version of the open source data visualization 
-            software Redash to derive meaningful insights. The project showcases a seamless integration 
-            of various technologies, from data extraction to visualization, exemplifying the capability to 
-            handle and present data effectively.
-           </p>
-           <a href="https://github.com/Kaetherine/Bachelorarbeit" 
-                    target="_blank"
-                    class="btn my-4 font-weight-bold atlas-cta cta-blue">Github Repository</a>
-	   <!--a href="http://13.51.187.134/public/dashboards/2mHXj63Q0hso1HcF3pWFkeXccTpBaNlf1kZvaEum?org_slug=default" 
+    <div class="container my-5 py-2" id="projects">
+        <h2 class="text-center font-weight-bold d-block mb-3">Implementation of a Datapipeline (Offline)</h2>
+        <p>
+        In this project, an end-to-end data pipeline was constructed utilizing a combination of AWS services, 
+        including Amazon EC2, Amazon S3, Amazon Secrets Manager and Amazon RDS. Data extraction was enhanced 
+        with the strategic use of rotating proxies from zenrows, ensuring reliable and anonymous data 
+        extraction from an onlineshop. With cron, data was scheduled for regular extraction, transformation, 
+        and loading processes (ETL). Upon successful data extraction and storage in the postgres database, 
+        visualizations were crafted using a selfhosted version of the open source data visualization 
+        software Redash to derive meaningful insights. The project showcases a seamless integration 
+        of various technologies, from data extraction to visualization, exemplifying the capability to 
+        handle and present data effectively.
+       </p>
+       <a href="https://github.com/Kaetherine/Bachelorarbeit" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-blue">Github Repository</a>
+    <!--a href="http://13.51.187.134/public/dashboards/2mHXj63Q0hso1HcF3pWFkeXccTpBaNlf1kZvaEum?org_slug=default" 
                     target="_blank"
                     class="btn my-4 font-weight-bold atlas-cta cta-blue">SQL Demo on Redash</a> -->
-            <div class="row">
-                <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
-                    <!-- <h4 class="my-4">Dashboard "COLORS"</h4> -->
-                    <ul class="list-unstyled">
-                        <img src="img/dashboard_colors.png" alt="Take a look inside" class="mx-auto d-block">
-                    </ul>
-                    <!--<a href="http://13.51.187.134/public/dashboards/gRHoPDA7vxP3BXcjX60nXzwCC88ph5AfjB8aC0Gm?org_slug=default" 
-                    target="_blank"
-                    class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
-                    <!--<h4 class="my-4">Dashboard "MATERIALS"</h4> -->
-                    <ul class="list-unstyled">
-                        <img src="img/dashboard_materials.png" alt="Take a look inside" class="mx-auto d-block">
-                    </ul>
-                    <!--<a href="http://13.51.187.134/public/dashboards/TtIh7pq2DOOUGK57QlFtYau20wyBILp46K24Hs5T?org_slug=default" 
-                    target="_blank"
-                    class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
-                </div>
-                <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
-                    <!-- <h4 class="my-4">Dashboard "ORIGINS"</h4> -->
-                    <ul class="list-unstyled">
-                        <img src="img/dashboard_origins.png" alt="Take a look inside" class="mx-auto d-block">
-                    </ul>
-                    <!--<a href="http://13.51.187.134/public/dashboards/FCsXexDYIrj0LyhByqmj7l6FNUbHC3z6nRovnp7f?org_slug=default" 
-                    target="_blank"
-                    class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
-                </div>
+        <div class="row">
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
+                <!-- <h4 class="my-4">Dashboard "COLORS"</h4> -->
+                <ul class="list-unstyled">
+                    <img src="img/dashboard_colors.png" alt="Take a look inside" class="mx-auto d-block">
+                </ul>
+                <!--<a href="http://13.51.187.134/public/dashboards/gRHoPDA7vxP3BXcjX60nXzwCC88ph5AfjB8aC0Gm?org_slug=default" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
+                <!--<h4 class="my-4">Dashboard "MATERIALS"</h4> -->
+                <ul class="list-unstyled">
+                    <img src="img/dashboard_materials.png" alt="Take a look inside" class="mx-auto d-block">
+                </ul>
+                <!--<a href="http://13.51.187.134/public/dashboards/TtIh7pq2DOOUGK57QlFtYau20wyBILp46K24Hs5T?org_slug=default" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
+            </div>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
+                <!-- <h4 class="my-4">Dashboard "ORIGINS"</h4> -->
+                <ul class="list-unstyled">
+                    <img src="img/dashboard_origins.png" alt="Take a look inside" class="mx-auto d-block">
+                </ul>
+                <!--<a href="http://13.51.187.134/public/dashboards/FCsXexDYIrj0LyhByqmj7l6FNUbHC3z6nRovnp7f?org_slug=default" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
             </div>
         </div>
-        <!-- sankey diagram creator -->
+    </div>
+    <!-- sankey diagram creator -->
     <div class="jumbotron jumbotron-fluid feature" id="feature-last">
         <div class="container">
             <div class="row justify-content-between text-center text-md-left">

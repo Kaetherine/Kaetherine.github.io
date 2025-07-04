@@ -1,7 +1,12 @@
 /********** common setting **********/
+body {
+    color: #333333;
+}
+
 h2 {
-    font-size: 2.8rem !important;
+    font-size: 2.8rem;
     font-weight: 700;
+    color: #333333;
 }
 
 img {
@@ -14,15 +19,57 @@ button {
     cursor: pointer;
 }
 
-.jumbotron {
-    margin-bottom: 0 !important;
+/********** navbar **********/
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.atlas-cta {
-    border-radius: 22px !important;
-    padding: 12px 30px !important;
+.navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
     font-weight: 700;
-    transition: .3s ease-in-out !important;
+    color: #333333;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #3e558f;
+    text-decoration: none;
+}
+
+.navbar-container a:not(.navbar-brand) {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar-container a:not(.navbar-brand):hover {
+    color: #3e558f;
+    text-decoration: none;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 2rem 0;
+}
+
+
+
+.atlas-cta {
+    border-radius: 22px;
+    padding: 12px 30px;
+    font-weight: 700;
+    transition: .3s ease-in-out;
 }
 
 .atlas-cta:hover {
@@ -41,7 +88,7 @@ button {
 
 .cta-green:hover {
     color: #ffffff;
-    background:  #121a2e;
+    background: #121a2e;
 }
 
 .cta-blue {
@@ -55,7 +102,7 @@ button {
 }
 
 .cta-ghost {
-    border: 2px solid #3e558f !important;
+    border: 2px solid #f3f3f3;
     color: #3e558f;
 }
 
@@ -64,46 +111,21 @@ button {
     background: #121a2e;
 }
 
-#banner {
-    background-size: cover;
-}
-
-/********** banner **********/
-#banner header {
-    overflow: hidden;
-}
-
-#banner header img {
-    max-width: 80px;
-}
-
-/********** feature (skew background) **********/
-.feature img {
-    width: 100%;
-    max-width: 480px;
-}
-
-#feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #e6e7e8 0);
-}
-
-#feature-last {
-    background: #e6e7e8;
-}
-
-/********** price table **********/
 #price-table {
-    padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 #price-table__premium {
-    background: #3e558f;
-    color: #ffffff;
+    background: #ffffff;
+    color: #333333;
 }
 
 #price-table ul li {
     padding: 5px 0;
+    color: #333333;
 }
 
 
@@ -150,9 +172,9 @@ button {
 
 
 #technologies {
-    background: #3e558f;
+    background: #ffffff;
+    border-top: 1px solid #e0e0e0;
     padding: 2rem 3rem;
-
 }
 
 #technologies #social-media a {
@@ -161,24 +183,36 @@ button {
     border-radius: 99%;
     background: #ffffff;
     transition: .4s ease;
-    
 }
 
 #technologies #social-media a i {
     color: #3e558f;
     font-size: 1.2rem;
     line-height: 40px;
-    
 }
 
 #technologies #social-media a:hover {
     background: #ffffff;
-    
 }
 
 #technologies #social-media a:hover i {
-    color: #ffffff;
-    
+    color: #3e558f;
+}
+
+/********** feature (skew background) **********/
+.feature img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#feature-first {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#feature-last {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 /********** RWD **********/
