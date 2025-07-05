@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Katherines Portfolio Website</title>
+    <meta name="description" content="Free bootstrap template Atlas">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- Google Fonts - Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navigation Placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <!--Projects-->
+    <div class="container my-5 py-2" id="projects">
+        <h2 class="text-center font-weight-bold d-block mb-3">Implementation of a Datapipeline (Offline)</h2>
+        <p>
+        In this project, an end-to-end data pipeline was constructed utilizing a combination of AWS services, 
+        including Amazon EC2, Amazon S3, Amazon Secrets Manager and Amazon RDS. Data extraction was enhanced 
+        with the strategic use of rotating proxies from zenrows, ensuring reliable and anonymous data 
+        extraction from an onlineshop. With cron, data was scheduled for regular extraction, transformation, 
+        and loading processes (ETL). Upon successful data extraction and storage in the postgres database, 
+        visualizations were crafted using a selfhosted version of the open source data visualization 
+        software Redash to derive meaningful insights. The project showcases a seamless integration 
+        of various technologies, from data extraction to visualization, exemplifying the capability to 
+        handle and present data effectively.
+       </p>
+    <!--a href="http://13.51.187.134/public/dashboards/2mHXj63Q0hso1HcF3pWFkeXccTpBaNlf1kZvaEum?org_slug=default" 
+                    target="_blank"
+                    class="btn my-4 font-weight-bold atlas-cta cta-blue">SQL Demo on Redash</a> -->
+        <div class="row">
+            <div class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
+                <!-- <h4 class="my-4">Dashboard "COLORS"</h4> -->
+                <ul class="list-unstyled">
+                    <img src="img/dashboard_colors.png" alt="Take a look inside" class="mx-auto d-block">
+                </ul>
+                <!--<a href="http://13.51.187.134/public/dashboards/gRHoPDA7vxP3BXcjX60nXzwCC88ph5AfjB8aC0Gm?org_slug=default" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
+            </div>
+            <div class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
+                <!--<h4 class="my-4">Dashboard "MATERIALS"</h4> -->
+                <ul class="list-unstyled">
+                    <img src="img/dashboard_materials.png" alt="Take a look inside" class="mx-auto d-block">
+                </ul>
+                <!--<a href="http://13.51.187.134/public/dashboards/TtIh7pq2DOOUGK57QlFtYau20wyBILp46K24Hs5T?org_slug=default" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
+            </div>
+            <div class="col-md-4 text-center py-4 mt-5" id="price-table__premium">
+                <!-- <h4 class="my-4">Dashboard "ORIGINS"</h4> -->
+                <ul class="list-unstyled">
+                    <img src="img/dashboard_origins.png" alt="Take a look inside" class="mx-auto d-block">
+                </ul>
+                <!--<a href="http://13.51.187.134/public/dashboards/FCsXexDYIrj0LyhByqmj7l6FNUbHC3z6nRovnp7f?org_slug=default" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">View Dashboard</a>-->
+            </div>
+            <a href="https://github.com/Kaetherine/Bachelorarbeit" 
+                target="_blank"
+                class="btn my-4 font-weight-bold atlas-cta cta-blue">Github Repository</a>
+        </div>
+    </div>
+    <!-- sankey diagram creator -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold">Sankey Diagram Creator (Offline)</h2>
+                    <p class="my-4">
+                        This project introduced a specialized Dash-based Python tool designed for dynamic 
+                        Sankey diagram generation, tailored for users wishing to decode relationships within
+                         Excel data columns. The application 
+                    was developed based on the idea of wanting to easily (dynamically and automatically) visualizes 
+                    business transaction based data from ERP Systems to classify single business transactions.
+			    The approach of writing a dynamic solution lead to an outcome that is applicable for 
+                    flowbased data of every domain. Through a user-friendly interface, it facilitates the upload 
+                         of Excel files, enabling interactive column selection, data filtering, and real-time 
+                         Sankey diagram visualization. Behind the scenes, the application is backed by 
+                         integral Python libraries including dash, pandas, base64, and io. A standout 
+                         feature is its fluid adaptability to user interactions, where the Sankey diagram 
+                         adjusts according to column and filter choices.<br><br> The application is hosted on 
+                         AWS Elastic Beanstalk, which manages the deployment, from auto-scaling to application 
+                         health monitoring. Integration with AWS CodePipeline and GitHub ensures that the 
+                         codebase is continuously integrated and deployed (CI- & CD- Pipeline), allowing 
+                         for real-time updates and streamlined version control.
+                    </p>
+                    <!-- <a href="http://16.170.51.137:8050/" 
+                    target="_blank"
+                    class="btn my-4 font-weight-bold atlas-cta cta-blue">Visit App</a> -->
+                    <a href="https://drive.google.com/file/d/11xXN_69VGJmS-o0dwA8FyAWD1GqJYQW2/view?usp=sharing" 
+                    target="_blank"
+                    class="btn my-4 font-weight-bold atlas-cta cta-blue">More about the Project</a>
+                    <a href="https://github.com/Kaetherine/Process-Review-Tool/wiki" 
+                    target="_blank"
+                    class="btn my-4 font-weight-bold atlas-cta cta-blue">Github Repository</a>
+                </div>
+                <div class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/sankey.png" alt="Safe and reliable" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- decoupled django and react -->
+       <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div class="col-md-6">
+                    <h2 class="font-weight-bold">Decoupled Django & React (Offline)</h2>
+                    <p class="my-4">
+                        This project presents a sophisticated integration of Django's robust backend 
+                        capabilities with React's dynamic frontend functionalities. Designed as a web 
+                        application, it seamlessly merges Django's web app structure with a JavaScript-driven 
+                        React interface. Users can explore features like articles management, where they 
+                        can edit and delete content. Python, JavaScript, Django, Django's REST framework, 
+                        and react-router-dom are the key components of this web app. The interactive design 
+                        is further complemented by the option to create user accounts using django's 
+                        administration page (/admin), offering a more personalized experience. 
+                        The application's dual-server nature lets users access both the frontend and 
+                        the Django REST API, showcasing the power of decoupling in modern web development.
+                    </p>
+                    <!-- <a href="http://16.170.51.137:8080/articles" target="_blank"
+                    class="btn my-4 font-weight-bold atlas-cta cta-blue">Visit Frontend App</a>
+                    <a href="http://16.170.51.137:8000/api/articles/" target="_blank"
+                    class="btn my-4 font-weight-bold atlas-cta cta-blue">Visit Backend App</a> -->
+                    <a href="https://github.com/Kaetherine/Decoupled-Django-and-React/wiki" target="_blank"
+                    class="btn my-4 font-weight-bold atlas-cta cta-blue">Github Repository</a>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <img src="img/django_react.png" alt="Take a look inside" class="mx-auto d-block">
+                </div>
+            </div>
+        </div></div>
+   
+
+
+
+    
+    <!-- Navbar loader -->
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>
